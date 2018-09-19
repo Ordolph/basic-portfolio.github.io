@@ -1,0 +1,191 @@
+.divider {
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+    box-shadow: 2px 1px 1px rgb(146, 170, 179);
+}
+
+.background {
+    z-index: 0;
+    
+}
+
+h1 {
+    z-index: 1;
+    Position: absolute;
+    left: 20%;
+    background: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100px;
+    line-height: 150px;
+    margin: 0;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    box-shadow: 2px 1px 1px rgb(146, 170, 179);
+}
+
+h2 {
+    color: #4aaaa5;
+    height: 5%;
+    width: 90%;
+    border-bottom: 3px solid #bbacaf;
+    margin-left: 5%;
+    font-size: 200%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.home {
+    z-index: 1;
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+    color: #bbacaf;
+}
+
+.contact {
+    z-index: 1;
+    position: absolute;
+    right: 25%;
+    bottom: 20%;
+    color: #bbacaf;
+}
+
+.portfolio {
+    z-index: 1;
+    position: absolute;
+    right: 20%;
+    bottom: 20%;
+    color: #bbacaf;
+}
+
+.main-body {
+    z-index: 1;
+    background-color: #ffffff;
+    box-shadow: 5px 3px 3px 1px rgb(146, 170, 179);
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    margin-top: 5%; 
+    margin-bottom: 100px;
+}
+
+body {
+    /* background-image: url("../images/bananas.png"); */
+    /* background-image: url("../images/background.png") */
+    background-image: url(../images/gravel.png);
+}
+
+html, body {
+    margin:0 ;
+    height: 100%;
+}
+.profile {
+    display: inline;
+    margin: 2%;
+}
+
+.right {
+    float: right;
+}
+
+.aboutp {
+    line-height: 200%;
+    display: inline;
+}
+
+.clear {
+    clear:both;
+    line-height:0;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 50px;
+ 
+}
+
+.box1 {
+    text-align: left;
+    width: 100% ;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.box2 {
+    width: 100%;
+    height: 300px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.footer-stripe {
+    width: 100%;
+    height: 5px;
+    background-color: #4aaaa5;
+    position: relative;
+}
+ p {
+    display: inline;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+ }
+
+ .submit-button {
+    color: #ffffff;
+    font-size: 125%;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    text-align: center;
+    line-height: 50px;
+    padding: 10px;
+    box-shadow: 3px 3px 3px 1px rgb(146, 170, 179);
+}
+.port-img1 {
+    position: relative;
+}
+
+.portfolio_name {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    bottom: 5px;
+    left: 75px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+}
+
+.port-img2 {
+    float: right;
+    margin: 15px;
+}
+
+.port-img3 {
+    float: left;
+    margin: 15px;
+}
+
+.port-img4 {
+    float: right;
+    margin: 15px;
+}
+
+.port-img5 {
+    float: left;
+    margin: 15px;
+}
+
+.picture {
+ position: relative;
+}
